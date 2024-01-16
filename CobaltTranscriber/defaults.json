@@ -1,0 +1,19 @@
+{
+    "settings": [{
+        "id": "item1",
+        "host": "${host:item1}",
+        "presets": [{
+                "id": "Hebrew",
+                "template_id": "value1"
+            },
+            {
+                "id": "a.mp3",
+                "template_id": "value2"
+            },
+            {
+                "id": "source",
+                "template_id": "value3"
+            }
+        ]
+    }]
+}
