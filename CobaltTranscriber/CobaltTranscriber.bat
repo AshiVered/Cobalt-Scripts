@@ -42,9 +42,9 @@ goto :main
 :manual
 set /p audio= Enter the path to the audio file:
 set /p text= Enter the path to save the transcribed file:
-set /p lang = Enter the language (list of supported languages avaible in langs.txt):
+set /p langa= Enter the language (list of supported languages avaible in langs.txt):
 
-whisper-faster.exe %audio% --language=%lang% --model=large-v2 --output_format=txt --output_dir=%text%
+whisper-faster.exe %audio% --language=%langa% --model=large-v2 --output_format=txt --output_dir=%text%
 pause
 goto :main
 :advanced
