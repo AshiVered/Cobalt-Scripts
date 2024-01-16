@@ -124,5 +124,5 @@ goto :main
 pause
 goto :main
 :github
-start https://github.com/AshiVered/APK-Multi-Tool
+start https://github.com/AshiVered/Cobalt-Scripts/tree/main/Cobalt-ApkTool
 goto :main
