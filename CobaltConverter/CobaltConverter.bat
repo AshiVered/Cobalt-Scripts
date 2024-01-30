@@ -6,7 +6,7 @@ echo ---------------------------------------------
 echo # CobaltConverter pre-alpha v0.1 by A.I.V #
 echo ---------------------------------------------
 echo Wellcome!
-echo 1. Start transcription
+echo 1. Start conversion
 echo 2. Help
 echo 3. About
 CHOICE /C 123 /M "Enter your choice:"
