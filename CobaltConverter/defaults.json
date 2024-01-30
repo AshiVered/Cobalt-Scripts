@@ -1,0 +1,15 @@
+{
+    "settings": [{
+        "id": "item1",
+        "host": "${host:item1}",
+        "presets": [{
+                "id": "1.mp4",
+                "template_id": "value1"
+            },
+            {
+                "id": "1.mp3",
+                "template_id": "value2"
+            }
+        ]
+    }]
+}
